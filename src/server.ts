@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-// import mainRouter from './router';
+import mainRouter from './router';
 import { config } from './config';
 
 const app = express();
@@ -9,7 +9,7 @@ let server: any;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-// app.use(mainRouter);
+app.use(mainRouter);
 
 function connectToServer(): void {
     server = app.listen(port, () => {

@@ -6,6 +6,8 @@ export const config = {
         useUnifiedTopology: true, 
         useFindAndModify: false
     },
-    AWX_URL: 'http://awx-avi.northeurope.cloudapp.azure.com',
+    AWX_URL: 'awx-avi.northeurope.cloudapp.azure.com',
     PATH: '/api/v2/',
+    awx_auth_username: 'admin',
+    awx_auth_password: 'rabotadamoy',
 }

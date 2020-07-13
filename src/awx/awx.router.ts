@@ -8,7 +8,7 @@ appRouter.post('/launch-job', Wrapper.wrapAsync(awxController.runJob));
 
 // appRouter.get('http://awx-avi.northeurope.cloudapp.azure.com/#/home', Wrapper.wrapAsync(awxController.runJob));
 
-appRouter.post('awx-avi.northeurope.cloudapp.azure.com/api/v2/');
+// appRouter.post('awx-avi.northeurope.cloudapp.azure.com/api/v2/');
 
 
 
